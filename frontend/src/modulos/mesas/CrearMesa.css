@@ -1,0 +1,50 @@
+/* CrearMesa.css */
+.crear-mesa-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .crear-mesa h2 {
+    color: #333;
+    font-size: 1.8rem;
+  }
+  
+  .crear-mesa .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .crear-mesa .form-label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .crear-mesa .form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%; /* Aseguramos que ocupe el 100% de su contenedor */
+  }
+  
+  .crear-mesa button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .crear-mesa button:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .crear-mesa button.success {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .crear-mesa button.success:hover {
+    background-color: #218838;
+  }
+  

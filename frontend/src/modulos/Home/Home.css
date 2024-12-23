@@ -1,0 +1,51 @@
+.home-container {
+  background: linear-gradient(to right, #b9795f, #cacaca); /* gradiente entre dos colores */
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Necesario para posicionar elementos dentro de este contenedor */
+}
+
+.logout-button {
+  position: absolute;  /* Posiciona el botón de forma absoluta dentro del contenedor */
+  top: 20px;           /* Lo aleja 20px desde la parte superior */
+  right: 20px;         /* Lo aleja 20px desde el borde derecho */
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 10; /* Asegura que el botón esté encima de otros elementos */
+}
+
+.home-title {
+  font-size: 2.5rem;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Sombra */
+}
+
+.home-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.home-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.home-card .card-title {
+  font-size: 1.5rem;
+  color: #7a503f;
+}
+
+.home-card .card-body {
+  padding: 30px;
+}
+

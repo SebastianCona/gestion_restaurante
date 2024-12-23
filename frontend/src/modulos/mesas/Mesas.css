@@ -1,0 +1,80 @@
+/* Mesas.css */
+
+/* Aplica solo dentro de la clase .mesas-page */
+.mesas-page .container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .mesas-page .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+  }
+  
+  .mesas-page .col {
+    flex: 1 1 30%;
+    min-width: 250px;
+    box-sizing: border-box;
+  }
+  
+  .mesas-page .card {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 15px;
+    background-color: #fff;
+  }
+  
+  .mesas-page .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .mesas-page button {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .mesas-page button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  .mesas-page .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .mesas-page .card-text {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .mesas-page .card-subtitle {
+    font-size: 13px;
+    color: #888;
+  }
+  
+  @media (max-width: 768px) {
+    .mesas-page .col {
+      flex: 1 1 45%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .mesas-page .col {
+      flex: 1 1 100%;
+    }
+  }
+  

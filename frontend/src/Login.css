@@ -1,0 +1,37 @@
+/* Login.css */
+.login-container {
+    min-height: 100vh;
+    background-color: #f7f7f7;
+}
+
+.card {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.card-body {
+    background-color: white;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="password"] {
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,87 @@
+.card {
+    width: 18rem; /* Ancho estándar */
+    border: 1px solid #ddd; /* Borde sutil */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    overflow: hidden; /* Para manejar contenido desbordado */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación al pasar el mouse */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+  }
+  
+  .card-title {
+    font-size: 1.5rem; /* Tamaño de la fuente del título */
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    color: #555; /* Color de texto sutil */
+    margin-bottom: 10px;
+  }
+  
+  .card-body {
+    padding: 15px; /* Espaciado interno */
+  }
+  
+  .card button {
+    display: block;
+    margin: 10px auto 0; /* Centrado horizontal */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card button:hover {
+    background-color: #0056b3;
+  }
+
+  .modal-header {
+    background-color: #007bff; /* Color de fondo del encabezado */
+    color: white; /* Color del texto */
+    padding: 15px; /* Espaciado */
+  }
+  
+  .modal-header .modal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .modal-body {
+    font-size: 1rem;
+    color: #333; /* Texto de color neutro */
+    padding: 20px;
+  }
+  
+  .modal-footer {
+    padding: 15px;
+    border-top: 1px solid #ddd; /* Línea separadora */
+  }
+  
+  .modal button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modal button:hover {
+    background-color: #0056b3;
+  }
+  
+  .modal button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

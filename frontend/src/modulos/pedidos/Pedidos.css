@@ -1,0 +1,54 @@
+.lists-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Espacio entre las listas */
+  }
+  
+  .list {
+    width: 80%; /* Fijar ancho para cada lista */
+    height: 400px; /* Fijar altura */
+    border: 1px solid #ccc; /* Bordes */
+    overflow-y: auto; /* Scroll si el contenido supera la altura */
+    padding: 10px; /* Espaciado interno */
+    background-color: #f9f9f9; /* Fondo claro */
+  }
+  
+  .list-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff; /* Color del botón */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-bottom: 10px;
+  }
+  
+  button:disabled {
+    background-color: #ccc; /* Color del botón deshabilitado */
+    cursor: not-allowed;
+  }
+  
+  button:hover:not(:disabled) {
+    background-color: #0056b3; /* Color al pasar el mouse */
+  }
+
+  .link-button {
+    display: inline-block;
+    padding: 7px 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .link-button:hover {
+    background-color: #0056b3; 
+  }

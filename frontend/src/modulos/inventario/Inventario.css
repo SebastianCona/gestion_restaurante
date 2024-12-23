@@ -1,0 +1,128 @@
+/* Inventario.css */
+
+/* Estilos solo para el módulo Inventario */
+.inventario-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.inventario-link-button {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: transparent;
+  border: none;
+}
+
+.inventario-link-button:hover {
+  text-decoration: underline;
+}
+
+.inventario-table-custom {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.inventario-table-header th {
+  background-color: #f8f9fa;
+  color: #495057;
+  text-align: left;
+  padding: 12px 15px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.inventario-table-row td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.inventario-table-row:hover {
+  background-color: #f1f1f1;
+}
+
+.inventario-btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.inventario-btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.inventario-btn-warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.inventario-btn-warning:hover {
+  background-color: #e0a800;
+  border-color: #d39e00;
+}
+
+.inventario-btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.inventario-btn-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+.inventario-modal-custom .modal-content {
+  border-radius: 10px;
+}
+
+.inventario-modal-custom .modal-header {
+  background-color: #007bff;
+  color: white;
+  border-radius: 10px 10px 0 0;
+}
+
+.inventario-modal-custom .modal-title {
+  font-size: 1.25rem;
+}
+
+.inventario-modal-custom .modal-body {
+  padding: 30px;
+}
+
+.inventario-form-control-custom {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.inventario-form-control-custom:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.25rem rgba(38, 143, 255, 0.5);
+}
+
+/* Para los botones alineados en la esquina superior izquierda */
+.inventario-container .d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.inventario-btn-success {
+  margin-left: 15px; /* Espaciado entre los botones */
+}
+
+/* Diseño del botón Volver restaurado */
+.inventario-link-button {
+  font-size: 1rem;
+  padding: 6px 12px;
+  border-radius: 5px;
+  color: #007bff;
+  background-color: transparent;
+  border: 1px solid #007bff;
+  text-decoration: none;
+}
+
+.inventario-link-button:hover {
+  background-color: #007bff;
+  color: white;
+}
