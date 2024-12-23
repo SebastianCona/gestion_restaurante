@@ -1,0 +1,59 @@
+Manual de usuario
+
+Requisitos Previos
+Herramientas necesarias:
+
+-Python 3.10 o superior
+-Node.js 18 o superior
+-MySQL (Google Cloud SQL configurado previamente o instalado localmente)
+-Git}
+
+Dependencias necesarias:
+
+-Django (para el backend)
+-React (para el frontend)
+-MySQL Connector
+
+Instrucciones de Instalacionm
+1. Clonar el repositorio
+    git clone https://github.com/SebastianCona/gestion_restaurante.git
+    cd gestion_restaurante
+    
+2. Configurar el Backend, Instala las dependencias:
+    cd backend
+    python -m venv venv
+    source venv/bin/activate  # En Windows: venv\Scripts\activate
+    pip install -r requirements.txt
+
+    Configurar el archivo .env:
+    Crear un archivo .env en la carpeta backend con las siguientes variables:
+    DB_NAME=nombre_base_datos
+    DB_USER=usuario
+    DB_PASSWORD=contraseña
+    DB_HOST=host_mysql
+    DB_PORT=puerto_mysql
+    SECRET_KEY=clave_secreta
+
+    Migrar la base de datos:
+      python manage.py makemigrations
+      python manage.py migrate
+
+    Ejecutar el servidor:
+      python manage.py runserver
+
+3. Configurar el Frontend
+    Instalar dependencias:
+      cd frontend
+      npm install
+      
+    Ejecutar el servidor:
+      npm start  
+
+4. Verificar la Aplicacion
+    Frontend: http://localhost:3000
+    Backend: http://localhost:8000
+
+
+
+      
+
