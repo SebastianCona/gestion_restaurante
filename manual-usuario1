@@ -1,0 +1,39 @@
+Manual de Usuario
+Acceso a la Aplicacion:
+Abre el navegador web y accede a la URL de la aplicación: http://localhost:3000.
+Ingresa tus credenciales para iniciar sesión.
+
+Funcionalidades Principales
+
+1. Gestion del Inventario
+Agregar producto:
+  Haz clic en la seccion "Inventario".
+  Presiona el boton "Agregar Producto".
+  Completa los campos y guarda los cambios.
+Editar producto:
+  En la lista de productos, selecciona el producto a editar.
+  Modifica los campos necesarios y guarda los cambios.
+Eliminar producto:
+En la lista de productos, selecciona el producto.
+Presiona el boton "Eliminar" y confirma.
+
+2. Administracion del Menú
+Crear plato:
+  Accede a la sección "Menú".
+  Presiona "Agregar Plato".
+  Ingresa la informacion y guarda.
+Editar plato:
+  Selecciona un plato del listado.
+  Realiza los cambios necesarios y guarda.
+Eliminar plato:
+  Selecciona un plato y presiona "Eliminar".
+
+3. Gestion de Mesas:
+Ver lista de mesas:
+  Accede a mesas, aqui se listaran las mesas.
+Eliminar mesas:
+  Selecciona la mesa que quieras y presiona el boton eliminar.
+
+4. Carta.
+Visualizacion:
+Accede a la seccion "Carta" para explorar el menu disponible.
